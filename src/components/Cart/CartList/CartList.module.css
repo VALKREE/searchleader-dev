@@ -1,0 +1,39 @@
+.cartList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px; }
+
+.heading {
+  width: 100%;
+  text-align: center; }
+
+.empty {
+  text-align: center; }
+
+.total {
+  width: 100%;
+  text-align: right;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%; }
+
+@media screen and (min-width: 690px) and (max-width: 929px) {
+  .cartList {
+    align-items: center; }
+
+  .total {
+    text-align: center; } }
+@media screen and (min-width: 510px) and (max-width: 689px) {
+  .cartList {
+    align-items: center; }
+
+  .total {
+    text-align: center; } }
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .cartList {
+    align-items: center; }
+
+  .total {
+    text-align: center; } }
+
+/*# sourceMappingURL=CartList.module.css.map */

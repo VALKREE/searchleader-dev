@@ -1,0 +1,85 @@
+.form {
+  width: 100%;
+  background-color: #F2F5F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 70px 0 75px 0; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.heading {
+  text-align: center; }
+
+.input {
+  width: 404px;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #535860;
+  padding: 20px 0 20px 26px;
+  border: none;
+  outline: none; }
+  .input_error {
+    border: 1px solid #E86880; }
+
+.button {
+  background: #296DC1;
+  width: 430px;
+  height: 60px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 130%;
+  letter-spacing: 0.05em;
+  color: #fff;
+  border: none;
+  cursor: pointer; }
+
+.errorMessage {
+  padding-top: 5px;
+  height: 18px;
+  color: #E86880; }
+
+.modal_wrapper {
+  margin: 44px 33px; }
+.modal_exit {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer; }
+.modal_heading {
+  width: 444px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  color: #000; }
+.modal_text {
+  width: 444px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000; }
+
+@media screen and (min-width: 510px) and (max-width: 689px) {
+  .modal_wrapper {
+    margin: 38px 26px; }
+  .modal_heading, .modal_text {
+    width: 348px; } }
+@media screen and (min-width: 320px) and (max-width: 509px) {
+  .input {
+    width: 290px; }
+
+  .button {
+    width: 290px; }
+
+  .modal_wrapper {
+    margin: 32px 20px; }
+  .modal_heading, .modal_text {
+    width: 238px; } }
+
+/*# sourceMappingURL=Form.module.css.map */
