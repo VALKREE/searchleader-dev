@@ -15,7 +15,6 @@ const Catalog = () => {
     function add(e){
         e.preventDefault();
         e.target.classList = classesGoodItem.active;
-        e.target.innerText = 'В КОРЗИНЕ';
         e.target.onclick = redirect;
         let item = e.target.parentNode;
         const newCartItem = {

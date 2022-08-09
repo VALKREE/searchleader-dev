@@ -28,6 +28,9 @@
   color: #000000; }
 
 .button, .active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   cursor: pointer;
   background-color: #296DC1;
@@ -39,6 +42,9 @@
   letter-spacing: 0.05em;
   color: #FFFFFF; }
 
+.hidden {
+  display: none; }
+
 .active {
   background-color: #00A82D; }
 
@@ -49,7 +55,10 @@
 
   .image {
     width: 334px;
-    height: 400px; } }
+    height: 400px; }
+
+  .button {
+    display: flex; } }
 @media screen and (min-width: 510px) and (max-width: 689px) {
   .good {
     width: 450px;
@@ -57,13 +66,19 @@
 
   .image {
     width: 334px;
-    height: 400px; } }
+    height: 400px; }
+
+  .button {
+    display: flex; } }
 @media screen and (min-width: 320px) and (max-width: 509px) {
   .good {
     height: 590px; }
 
   .image {
     width: 334px;
-    height: 400px; } }
+    height: 400px; }
+
+  .button {
+    display: flex; } }
 
 /*# sourceMappingURL=GoodItem.module.css.map */
